@@ -1,5 +1,5 @@
 
-LED - A,B,C,D,E
+LED - LA,LB,LC,LD,LE
 Vstupy generovane citacom - (0-3)
 
     I       Q0    Q1    Q2    Q3    Q4
