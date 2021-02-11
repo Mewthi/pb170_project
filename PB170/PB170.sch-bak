@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A0 46811 33110
 encoding utf-8
-Sheet 1 2
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -1403,4 +1403,34 @@ F 3 "~" H 9650 6550 50  0001 C CNN
 	1    9650 6550
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 18250 1650 1400 1250
+U 6026D736
+F0 "Sheet6026D735" 50
+F1 "LA.sch" 50
+$EndSheet
+$Sheet
+S 20600 1650 1350 1250
+U 6026DE84
+F0 "Sheet6026DE83" 50
+F1 "LBsch.sch" 50
+$EndSheet
+$Sheet
+S 22750 1650 1250 1200
+U 6026F362
+F0 "Sheet6026F361" 50
+F1 "LC.sch" 50
+$EndSheet
+$Sheet
+S 18250 3800 1400 1200
+U 60270D42
+F0 "Sheet60270D41" 50
+F1 "LD.sch" 50
+$EndSheet
+$Sheet
+S 20600 3800 1250 1250
+U 60271299
+F0 "Sheet60271298" 50
+F1 "LE.sch" 50
+$EndSheet
 $EndSCHEMATC
