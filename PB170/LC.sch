@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,136 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L PB170:74HC08 U?
+U 3 1 60280058
+P 1650 1400
+F 0 "U?" H 1675 1667 50  0000 C CNN
+F 1 "74HC08" H 1675 1576 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1650 1400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 1650 1400 50  0001 C CNN
+F 4 "C5593" H 1650 1400 50  0001 C CNN "LCSC"
+	3    1650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 4 1 60280745
+P 1650 1900
+F 0 "U?" H 1675 2167 50  0000 C CNN
+F 1 "74HC08" H 1675 2076 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1650 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 1650 1900 50  0001 C CNN
+F 4 "C5593" H 1650 1900 50  0001 C CNN "LCSC"
+	4    1650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 1 1 60280E2E
+P 1650 2400
+F 0 "U?" H 1675 2667 50  0000 C CNN
+F 1 "74HC08" H 1675 2576 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1650 2400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 1650 2400 50  0001 C CNN
+F 4 "C5593" H 1650 2400 50  0001 C CNN "LCSC"
+	1    1650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 2 1 60281A2A
+P 1650 2850
+F 0 "U?" H 1675 3117 50  0000 C CNN
+F 1 "74HC08" H 1675 3026 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1650 2850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 1650 2850 50  0001 C CNN
+F 4 "C5593" H 1650 2850 50  0001 C CNN "LCSC"
+	2    1650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 1 1 6025D6DD
+P 2700 1700
+F 0 "U?" H 2675 1975 50  0000 C CNN
+F 1 "74HC32" H 2675 1884 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2150 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 2150 1900 50  0001 C CNN
+F 4 "C5632" H 2700 1700 50  0001 C CNN "LCSC"
+	1    2700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 2 1 6025E1D5
+P 2700 2600
+F 0 "U?" H 2675 2875 50  0000 C CNN
+F 1 "74HC32" H 2675 2784 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2150 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 2150 2800 50  0001 C CNN
+F 4 "C5632" H 2700 2600 50  0001 C CNN "LCSC"
+	2    2700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 3 1 6025EF5C
+P 3450 2150
+F 0 "U?" H 3425 2425 50  0000 C CNN
+F 1 "74HC32" H 3425 2334 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2900 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 2900 2350 50  0001 C CNN
+F 4 "C5632" H 3450 2150 50  0001 C CNN "LCSC"
+	3    3450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1400 2300 1400
+Wire Wire Line
+	2300 1400 2300 1650
+Wire Wire Line
+	2300 1650 2450 1650
+Wire Wire Line
+	1950 1900 2300 1900
+Wire Wire Line
+	2300 1900 2300 1750
+Wire Wire Line
+	2300 1750 2450 1750
+Wire Wire Line
+	1950 2400 2300 2400
+Wire Wire Line
+	2300 2400 2300 2550
+Wire Wire Line
+	2300 2550 2450 2550
+Wire Wire Line
+	1950 2850 2300 2850
+Wire Wire Line
+	2300 2850 2300 2650
+Wire Wire Line
+	2300 2650 2450 2650
+Wire Wire Line
+	2900 1700 3100 1700
+Wire Wire Line
+	3100 1700 3100 2100
+Wire Wire Line
+	3100 2100 3200 2100
+Wire Wire Line
+	2900 2600 3100 2600
+Wire Wire Line
+	3100 2600 3100 2200
+Wire Wire Line
+	3100 2200 3200 2200
+Text GLabel 3650 2150 2    50   Output ~ 0
+LC
+Text GLabel 1400 1350 0    50   Input ~ 0
+Q0
+Text GLabel 1400 1850 0    50   Input ~ 0
+Q2
+Text GLabel 1400 1950 0    50   Input ~ 0
+!I0
+Text GLabel 1400 2350 0    50   Input ~ 0
+Q3
+Text GLabel 1400 2800 0    50   Input ~ 0
+Q4
 $EndSCHEMATC
