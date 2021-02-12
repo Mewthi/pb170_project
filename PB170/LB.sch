@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -103,7 +103,7 @@ Text GLabel 5100 3300 0    50   Input ~ 0
 Q2
 Text GLabel 5100 3750 0    50   Input ~ 0
 Q3
-Text GLabel 7100 3550 2    50   Input ~ 0
+Text GLabel 7100 3550 2    50   Output ~ 0
 LB
 $Comp
 L 74xx:74HC00 U?
