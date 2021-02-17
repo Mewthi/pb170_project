@@ -8,4 +8,4 @@ Vstupy generovane citacom - (0-3)
     10 -> ( 17 -> 10 ->  4 -> 20 -> 21)  
     11 -> (  4 -> 10 -> 17 -> 10 ->  4)  
   
-TODO: Kicad podklady, dokumentacia
+Podrobna dokumentacia v /tex/main.pdf
