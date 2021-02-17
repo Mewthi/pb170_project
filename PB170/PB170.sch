@@ -356,10 +356,6 @@ Text GLabel 12000 2600 0    50   Input ~ 0
 CLOCK
 Text GLabel 12000 1450 0    50   Input ~ 0
 CLOCK
-Wire Wire Line
-	12600 2700 12800 2700
-Wire Wire Line
-	12800 1550 12600 1550
 $Comp
 L power:+5V #PWR035
 U 1 1 60412972
@@ -371,8 +367,6 @@ F 3 "" H 12300 2300 50  0001 C CNN
 	1    12300 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12800 1550 12800 2700
 $Comp
 L power:+5V #PWR034
 U 1 1 60446A96
@@ -384,8 +378,6 @@ F 3 "" H 12300 1750 50  0001 C CNN
 	1    12300 1750
 	-1   0    0    1   
 $EndComp
-Text GLabel 12600 2500 2    50   Output ~ 0
-Q1
 Text GLabel 12000 2500 0    50   Input ~ 0
 Q0
 Text GLabel 12600 1350 2    50   Output ~ 0
@@ -481,8 +473,6 @@ Text GLabel 12300 5200 3    50   Input ~ 0
 SET
 Text GLabel 12300 4000 3    50   Input ~ 0
 SET
-Wire Wire Line
-	12800 5000 12600 5000
 $Comp
 L power:+5V #PWR038
 U 1 1 6044D5B6
@@ -528,22 +518,6 @@ F 4 "C6761" H 12300 3700 50  0001 C CNN "LCSC"
 	1    12300 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 12800 5000
-Wire Wire Line
-	12800 3800 12600 3800
-$Comp
-L power:GND #PWR039
-U 1 1 603E70B7
-P 12800 7700
-F 0 "#PWR039" H 12800 7450 50  0001 C CNN
-F 1 "GND" H 12805 7527 50  0000 C CNN
-F 2 "" H 12800 7700 50  0001 C CNN
-F 3 "" H 12800 7700 50  0001 C CNN
-	1    12800 7700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12600 6050 12800 6050
 Text GLabel 12000 3700 0    50   Input ~ 0
 CLOCK
 Text GLabel 12000 4900 0    50   Input ~ 0
@@ -556,12 +530,6 @@ Text GLabel 12000 4800 0    50   Input ~ 0
 Q2
 Text GLabel 12000 3600 0    50   Input ~ 0
 Q1
-Text GLabel 12600 5850 2    50   Output ~ 0
-Q4
-Text GLabel 12600 4800 2    50   Output ~ 0
-Q3
-Text GLabel 12600 3600 2    50   Output ~ 0
-Q2
 $Comp
 L 74xx:74HC74 U13
 U 2 1 602C6C00
@@ -632,12 +600,6 @@ F 4 "C6761" H 12300 4900 50  0001 C CNN "LCSC"
 	2    12300 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12800 3800 12800 5000
-Connection ~ 12800 3800
-Wire Wire Line
-	12800 2700 12800 3800
-Connection ~ 12800 2700
 Wire Notes Line
 	6950 2900 8450 2900
 Wire Notes Line
@@ -710,7 +672,7 @@ F 3 "" H 6200 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 2000 6200 2000
+	5800 2000 6000 2000
 $Comp
 L Device:C C4
 U 1 1 602F28FE
@@ -1228,49 +1190,6 @@ F 4 "C404969" H 5000 3950 50  0001 C CNN "LCSC"
 	1    5000 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12800 5000 12800 6050
-Wire Wire Line
-	12800 6050 12800 6600
-Connection ~ 12800 6050
-Wire Wire Line
-	12600 6950 12800 6950
-Connection ~ 12800 6950
-Wire Wire Line
-	12800 6950 12800 7150
-Wire Wire Line
-	12600 7150 12800 7150
-Wire Wire Line
-	12300 6750 12300 6600
-Wire Wire Line
-	12300 6600 12800 6600
-Connection ~ 12800 6600
-Wire Wire Line
-	12800 6600 12800 6700
-Wire Wire Line
-	12000 6950 12000 6700
-Wire Wire Line
-	12000 6700 12800 6700
-Connection ~ 12800 6700
-Wire Wire Line
-	12800 6700 12800 6950
-Wire Wire Line
-	12800 7150 12800 7450
-Connection ~ 12800 7150
-Wire Wire Line
-	12300 7350 12300 7450
-Wire Wire Line
-	12300 7450 12800 7450
-Connection ~ 12800 7450
-Wire Wire Line
-	12800 7450 12800 7550
-Wire Wire Line
-	12000 7050 12000 7550
-Wire Wire Line
-	12000 7550 12800 7550
-Connection ~ 12800 7550
-Wire Wire Line
-	12800 7550 12800 7700
 $Comp
 L PB170:74HC32 U?
 U 1 1 6027C631
@@ -2140,13 +2059,13 @@ $EndComp
 $Comp
 L PB170:74HC32 U9
 U 2 1 603F2ABC
-P 6950 8800
-F 0 "U9" H 6925 9075 50  0000 C CNN
-F 1 "74HC32" H 6925 8984 50  0000 C CNN
-F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 6400 9000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 6400 9000 50  0001 C CNN
-F 4 "C5632" H 6950 8800 50  0001 C CNN "LCSC"
-	2    6950 8800
+P 6950 8750
+F 0 "U9" H 6925 9025 50  0000 C CNN
+F 1 "74HC32" H 6925 8934 50  0000 C CNN
+F 2 "PB170:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL" H 6400 8950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 6400 8950 50  0001 C CNN
+F 4 "C5632" H 6950 8750 50  0001 C CNN "LCSC"
+	2    6950 8750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2270,22 +2189,8 @@ $EndComp
 $Comp
 L Device:R R3
 U 1 1 602EB1DF
-P 6200 1850
-F 0 "R3" H 6270 1896 50  0000 L CNN
-F 1 "10k" H 6270 1805 50  0000 L CNN
-F 2 "PB170:R0603" V 6130 1850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 6200 1850 50  0001 C CNN
-F 4 "C25804" H 6200 1850 50  0001 C CNN "LCSC"
-	1    6200 1850
-	1    0    0    -1  
-$EndComp
-Connection ~ 6200 1700
-Connection ~ 6200 2000
-$Comp
-L Device:R R2
-U 1 1 602F9729
 P 6200 1550
-F 0 "R2" H 6270 1596 50  0000 L CNN
+F 0 "R3" H 6270 1596 50  0000 L CNN
 F 1 "10k" H 6270 1505 50  0000 L CNN
 F 2 "PB170:R0603" V 6130 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 6200 1550 50  0001 C CNN
@@ -2293,6 +2198,7 @@ F 4 "C25804" H 6200 1550 50  0001 C CNN "LCSC"
 	1    6200 1550
 	1    0    0    -1  
 $EndComp
+Connection ~ 6200 2000
 $Comp
 L Device:R R5
 U 1 1 602FE19F
@@ -2317,4 +2223,89 @@ F 4 "C25804" H 7850 3550 50  0001 C CNN "LCSC"
 	1    7850 3550
 	1    0    0    -1  
 $EndComp
+Text GLabel 12600 3600 2    50   Output ~ 0
+Q2
+Text GLabel 12600 4800 2    50   Output ~ 0
+Q3
+Text GLabel 12600 5850 2    50   Output ~ 0
+Q4
+Text GLabel 12600 2500 2    50   Output ~ 0
+Q1
+NoConn ~ 12600 2700
+NoConn ~ 12600 3800
+NoConn ~ 12600 5000
+NoConn ~ 12600 6050
+NoConn ~ 12600 7150
+NoConn ~ 12600 6950
+$Comp
+L power:+5V #PWR0101
+U 1 1 603E3A76
+P 12300 6750
+F 0 "#PWR0101" H 12300 6600 50  0001 C CNN
+F 1 "+5V" H 12315 6923 50  0000 C CNN
+F 2 "" H 12300 6750 50  0001 C CNN
+F 3 "" H 12300 6750 50  0001 C CNN
+	1    12300 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 603E3FE9
+P 12300 7350
+F 0 "#PWR0102" H 12300 7200 50  0001 C CNN
+F 1 "+5V" H 12315 7523 50  0000 C CNN
+F 2 "" H 12300 7350 50  0001 C CNN
+F 3 "" H 12300 7350 50  0001 C CNN
+	1    12300 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 603E4B38
+P 11850 7000
+F 0 "#PWR0103" H 11850 6750 50  0001 C CNN
+F 1 "GND" H 11855 6827 50  0000 C CNN
+F 2 "" H 11850 7000 50  0001 C CNN
+F 3 "" H 11850 7000 50  0001 C CNN
+	1    11850 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 7000 11950 7000
+Wire Wire Line
+	11950 7000 11950 6950
+Wire Wire Line
+	11950 6950 12000 6950
+Wire Wire Line
+	11950 7000 11950 7050
+Wire Wire Line
+	11950 7050 12000 7050
+Connection ~ 11950 7000
+NoConn ~ 12600 1550
+Text GLabel 12300 1150 1    50   Input ~ 0
+SET
+$Comp
+L Device:R_POT RV1
+U 1 1 603935F3
+P 6200 1850
+F 0 "RV1" H 6131 1896 50  0000 R CNN
+F 1 "R_POT" H 6131 1805 50  0000 R CNN
+F 2 "PB170:potentiometer10k" H 6200 1850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810170732_Nidec-Copal-Elec-ST-4EA-10K-ohm-103_C132879.pdf" H 6200 1850 50  0001 C CNN
+F 4 " C132879" H 6200 1850 50  0001 C CNN "LCSC"
+	1    6200 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 1700
+Wire Wire Line
+	6000 2000 6000 2600
+Wire Wire Line
+	6000 2600 6550 2600
+Wire Wire Line
+	6550 2600 6550 1850
+Wire Wire Line
+	6550 1850 6350 1850
+Connection ~ 6000 2000
+Wire Wire Line
+	6000 2000 6200 2000
 $EndSCHEMATC
