@@ -1,3 +1,2 @@
 ## Photos
-
-PB170.png
+![PCB image](PB170.png)
